@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+build/
+dist/
+installer/output/
+# крупный бинарник: кладётся рядом вручную (см. README), в установщик попадает при сборке
+ffmpeg/
+# личные пресеты и дампы USB-обмена с исходной программой
+presets/
+captures/
+icon_preview.png
+*.log
+# официальный установщик драйвера PawnIO: скачивается скриптом installer/get_redist.ps1
+installer/redist/
